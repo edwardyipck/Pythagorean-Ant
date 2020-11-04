@@ -8,8 +8,8 @@ import time
 
 def read_data(file_name):
     start = time.time() # Starts the timer
-    List = [100,1000,10000,100000,1000000] #The different values of N
-    for i in List:
+    list = [100,1000,10000,100000,1000000] #The different values of N
+    for i in list:
         N=i
         global x1 #This is the probability value for each ant
         global L  #L is used to store the greatest probability
